@@ -1,0 +1,52 @@
+body{
+    background-image: url(background.jpg);
+}
+.describtion{
+    color: wheat;
+    display: none;
+    font-size: large;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    text-decoration: none;
+    color: gold;
+    font-style: italic;
+    font-size: larger;
+}
+.swiper{
+    height: 600px;
+    width: 340px;
+    margin: 50px;
+    .swiper-slide{
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 30px;
+        color: orange;
+        height: 500px;
+        width: 10px;
+    }
+}
+.saber{
+    border: 5px solid black;
+    color: red;
+}
+.information{
+    font-size: large;
+}
+button{
+    border: 5px solid black;
+    border-radius: 10px;
+    color: olivedrab;
+    font-size: large;
+}

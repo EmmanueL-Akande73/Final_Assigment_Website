@@ -1,0 +1,46 @@
+body{
+    background-image: url(download.jpeg);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+nav{
+    color: gold;
+    font-style: italic;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+.swiper{
+    height: 600px;
+    width: 440px;
+    margin: 50px;
+    .swiper-slide{
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 30px;
+        color: orange;
+        height: 500px;
+        width: 10px;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    
+}

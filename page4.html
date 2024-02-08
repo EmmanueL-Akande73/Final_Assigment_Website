@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilgamesh pages</title>
+    <link rel="stylesheet" href="saber.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <nav><a href="index.html">Saber</a></nav>
+        <nav><a href="page2.html">Saber</a></nav>
+        <nav><a href="page3.html">Koichi</a></nav>
+        <nav>Gilgamesh</nav>
+    </nav>
+
+    <div>
+        <p class="describtion" id="describtion">Gilgamesh (ギルガメッシュ? , Girugamesshu ) , also called King of Heroes (英雄王? , Eiyū-Ō ) or Archer (アーチャー? , Āchā ) due to his class, is a fictional character and one of the main antagonists of the English visual novel Fate /stay night , written by Kinoko Nasu and illustrated by Takashi Takeuchi. Gilgamesh is a very arogant person and belives every good thing in this world is hes, but he is also a good and great king.</p>
+        <button id="buttoninfo" type="button">Info</button>
+      </div>
+
+      <div>
+        <img id="image"/> <br>
+        <button id="button" onclick="get_random_dog_image()"> For Dog Lovers </button>
+      </div>
+
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"
+          style="background-image: url(GilgameshUC.webp);  
+           "
+          >Gilgamesh</div>
+          <div class="swiper-slide"
+          style="background-image: url(GilFGO.webp);"
+          >Gilgamesh</div>
+          <div class="swiper-slide"
+          style="background-image: url(Gilgamesh_full_power.webp);"
+          >Prime_Gilgamesh</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="move.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>

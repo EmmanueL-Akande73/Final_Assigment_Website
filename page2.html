@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabers page</title>
+    <link rel="stylesheet" href="saber.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <nav><a href="index.html">Home</a></nav>
+        <nav>Saber</nav>
+        <nav><a href="page3.html">Koichi</a></nav>
+        <nav><a href="page4.html">Gilgamesh</a></nav>
+    </nav>
+      <div class="information">
+        <p class="describtion" id="describtion">Saber (Japanese: セイバー, Hepburn: Seibā), whose real name is Artoria Pendragon (アルトリア・ペンドラゴン, Arutoria Pendoragon) (alternatively, Altria Pendragon), is a fictional character from the Japanese 2004 visual novel Fate/stay night by Type-Moon. Saber is a heroic warrior who is summoned by a teenager named Shirou Emiya to participate in a war between masters and servants who are fighting to accomplish their dreams using the mythical Holy Grail. Saber's relationship with the story's other characters depends on the player's decisions; she becomes a love interest to Shirou in the novel's first route and also serves as that route's servant protagonist, a supporting character in the second, and a villain called "Saber Alter" (セイバー・オルタ, Seibā Oruta) in the third route.</p>
+        <button id="buttoninfo" type="button">Info</button>
+      </div>
+
+      <div>
+        <img id="image"/> <br>
+        <button id="button" onclick="get_random_dog_image()"> For Dog Lovers </button>
+      </div>
+
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"
+          style="background-image: url(SaberFateGrandOrder.png);  
+           "
+          >Saber</div>
+          <div class="swiper-slide"
+          style="background-image: url(Saber_2.webp);"
+          >Saber</div>
+          <div class="swiper-slide"
+          style="background-image: url(saber_suit.png);"
+          >Suit_Saber</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="move.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
